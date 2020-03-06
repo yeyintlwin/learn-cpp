@@ -1,8 +1,6 @@
 //Using overloaded functions.
 #include <iostream>
 
-using namespace std;
-
 const float PI = 3.141593;
 
 float radius, height, volume;
@@ -12,7 +10,17 @@ void calVol(float, float);
 
 int main()
 {
-    cout << "Hello" << endl;
+    std::cout << "\nEnter radius: ";
+    std::cin >> radius;
+    std::cout << "Enter height: ";
+    std::cin >> height;
+
+    calVol(radius);
+    std::cout << "\nVolume of sphere is " << volume << std::endl;
+
+    calVol(radius, height);
+    std::cout << "\nVolume of cylinder is " << volume << std::endl;
+
     return 0;
 }
 
