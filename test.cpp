@@ -6,21 +6,21 @@ int fun3();
 
 int main()
 {
-    int a = fun1(), fun2(), fun3();
-    //int a = (fun1(), fun2(), fun3());
+    int a = fun1() - (fun2() * fun3());
     std::cout << "\na: " << a << std::endl;
+
     return 0;
 }
 
 int fun1()
 {
     std::cout << "\nfun1()" << std::endl;
-    return 1;
+    return 7;
 }
 
 int fun2()
 {
-    std::cout << "\nfun3()" << std::endl;
+    std::cout << "\nfun2()" << std::endl;
     return 2;
 }
 

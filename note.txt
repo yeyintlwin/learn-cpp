@@ -70,4 +70,14 @@ int main()
 
 Inline function
 
+-----------------------------------------------------------------------------
+
+Languages တော်တော်များမှာ မပါတဲ့ control statement ကတော့ goto ပါ။
+
+----------------------------------------------------------------------------
+
+
+in some programming language
+
+ do{ /*code*/ } while(condition); နဲ့ while(condition){/*code*/} နဲ့ ဘာကွာလဲဆိုရင် condition false ပြောင်းသွားလို့ loop ရပ်သွားတဲ့အခါ do while က do ထက်တစ်ကြိမ်ပိုပြီး အလုပ်လုပ်တယ်။
 
