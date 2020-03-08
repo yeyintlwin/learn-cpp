@@ -1,6 +1,6 @@
 #include <iostream>
-///#include <conio.h> //Only working in Windows.
-#include <curses.h>
+#include <conio.h> //It only working on Windows.
+
 int main()
 {
   int chcount = 0, wdcount = 1;
@@ -9,8 +9,7 @@ int main()
   std::cout << "Enter a sentence\n";
   while (ch != '\r')
   {
-    ch = getch();
-    //getche();
+    ch = getche();
     if (ch == ' ')
       wdcount++;
     else
