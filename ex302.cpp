@@ -1,3 +1,6 @@
+// Listing 3.2: This program cubes a number if it is
+// not a zero or negative value.
+
 #include <iostream>
 #include <cmath>
 

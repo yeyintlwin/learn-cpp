@@ -1,3 +1,4 @@
+// Listing 1.8: Assigned an expression
 #include <iostream>
 int main()
 {

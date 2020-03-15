@@ -1,8 +1,11 @@
+// Listing 2.10a: This program demonstrates
+// The use of global variables.
+
 #include <iostream>
 #include <cmath>
 
 void power(int, int);
-long int temp;
+long int temp; // define global variable
 
 int main()
 {

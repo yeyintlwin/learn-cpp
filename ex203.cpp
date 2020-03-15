@@ -1,3 +1,4 @@
+// Listing 2.3: Calculate the area of triangle
 #include <iostream>
 
 float calArea(float, float);

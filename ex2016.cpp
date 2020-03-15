@@ -1,3 +1,6 @@
+// Listing 2.16: This program demonstrates
+// passing structure as arguement.
+
 #include <iostream>
 
 struct height

@@ -1,3 +1,6 @@
+// Listing 3.4: This program reads an integer number
+// and print out the same number with digits reversrd.
+
 //Reversing an Integer Number.
 #include <iostream>
 

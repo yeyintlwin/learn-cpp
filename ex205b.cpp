@@ -1,3 +1,5 @@
+// Listing 2.5b: This program display rhe square root of 
+// a number passed from a program to the function
 #include <iostream>
 
 float sqroot(float, float);

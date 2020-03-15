@@ -81,3 +81,64 @@ in some programming language
 
  do{ /*code*/ } while(condition); နဲ့ while(condition){/*code*/} နဲ့ ဘာကွာလဲဆိုရင် condition false ပြောင်းသွားလို့ loop ရပ်သွားတဲ့အခါ do while က do ထက်တစ်ကြိမ်ပိုပြီး အလုပ်လုပ်တယ်။
 
+
+-----------------------------------------------------------------------------
+
+cpu = 100;
+ram = 50;
+motherboad = 150;
+
+//NORMAL LOGIC
+swift(val){
+    case "cpu & ram" : total = cpu + ram; beak;
+    case "ram" : total = ram; break;
+    case "motherboad": total = motherboad; break;
+}
+
+//DIFFERENT LOGIC
+swift(val){
+    case "cpu & ram" : total = cpu;
+    case "ram" : total += ram; break;
+    case "motherboad": total = motherboad; break;
+}
+
+------------------------------------------------------------------------------
+
+function (သို့မဟုတ်)  variable တစ်ခုရဲ့ memory address ကို သိမ်းပေးနိုင်တဲ့ variable ကို pointer လို့ခေါ်တယ်။
+
+ဥပမာ - int x = 1; ဆိုလျှင် သူ memory address က &x ဖြစ်တယ်။
+
+cout << &x << endl; လို့ print ထုတ်ရင် 0x7ff********* ဆိုပြီး သိမ်းထားတဲ့ address ကို ပြလိမ့်မယ်။
+
+အဲဒီ address ကို program မှာ ပြန်သိမ်းဖို့ ကို pointer ဆိုတဲ့ variable လိုတယ်။ 
+pointer variable မှာ address ကို assign လုပ်ပုံကတော့။ ဥပမာ xp မှာ assign မယ်ပေါ့။
+int *xp = &x; ဆိုပြီး ရေးရတယ်။
+
+*xp ဆိုတာက pointer ပေါ့ &x ကတော့ address ပေါ့။ 
+
+ဘာတွေ အကျိူးကျေးဇူးထူး မလဲဆိုတော့ အောက်က code ကိုကြည့်ရင် နာလည်လိမ့်မယ်။
+
+int x = 1;
+int *xp = &x;
+x = 2;
+cout << *xp <<endl;
+
+output : 2 
+
+ကျွန်တော်တို့ print လိုက်တာ *xp ပါ၊ 2 ကို assign ပေးလိုက်တာ x မှာ၊ ပြီးတော့  *xp မှာ &x ကို assign ပြီးမှ x မှာ 2 ကို assign လုပ်လိုက်တာပါ။ output က 2 ထွက်ပါတယ်။
+
+ဘယ်တော့မှ address ကို အခြား values နဲ့ assign လုပ်ရမှာမဟုတ်ပါဘူး။
+address ကပြင်လို့ မရတဲ့ value ဖြစ်နေလို့ပါ။
+
+ဘာလုပ်လို့ရလဲ ဆိုတော့ ရတနာသိုက် ရသွားသလိုပါပဲ။
+int x[5] = {10, 20, 50, 40, 50};
+ x[index] //array accessed with array notation.
+ *(i+index) //array accessed with pointer notation
+ int *xp = x;
+ *(xp++) //array accessed with pointer
+
+
+
+construct လုပ်တာ ကောင်ထဲက item ကို ခေါ်ချင်ရင် ပုံမှန်မှာ (. dot operator) ကိုသုံးပါတယ်။ pointer မှာတော့ (-> member pointer operator ) ကိုသုံးပါတယ်။
+
+

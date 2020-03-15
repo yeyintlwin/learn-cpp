@@ -1,3 +1,4 @@
+// Listing 2.6: Passing variables bby reference
 #include <iostream>
 
 void calArea(float, float, float &);

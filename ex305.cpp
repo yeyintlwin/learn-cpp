@@ -1,3 +1,7 @@
+// Listing 3.5: This program calculates the payroll for
+// different workers giving overtime if the hours
+// worked are greater than 40 hours.
+
 //Payroll Program
 #include <iostream>
 
@@ -37,5 +41,5 @@ START:
 }
 
 /*
-* အလုပ်ချိန် (၄)နာရီ ကျော်လျှင် အချိန်ပိုကို ပုံမှန်ထက် တစ်ဆခွဲပိုပေးရတာဖြစ်ပါတယ်။
+* အလုပ်ချိန် (၄၀)နာရီ ကျော်လျှင် အချိန်ပိုကို ပုံမှန်ထက် တစ်ဆခွဲပိုပေးရတာဖြစ်ပါတယ်။
 **/

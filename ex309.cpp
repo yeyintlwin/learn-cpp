@@ -1,3 +1,6 @@
+// Listing 3.9: This program reads in a number representing 
+// a year and than determines whether it is a leap year or not.
+
 //Leap Year
 
 /*

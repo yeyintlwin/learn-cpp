@@ -1,3 +1,5 @@
+// Listing 3.8: This program demonstrates a complex,
+// nested if statement.
 //Nested if Statement
 #include <iostream>
 
@@ -5,7 +7,7 @@ int main()
 {
   int num1, num2;
 
-  std::cout << "Entertwo numbers\nFirst: ";
+  std::cout << "Enter two numbers\nFirst: ";
   std::cin >> num1;
   std::cout << "Second: ";
   std::cin >> num2;

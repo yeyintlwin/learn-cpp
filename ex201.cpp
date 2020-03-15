@@ -1,3 +1,4 @@
+// Listing 2.1: Create a simple function
 #include <iostream>
 
 void func();

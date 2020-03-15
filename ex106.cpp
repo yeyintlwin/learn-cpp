@@ -1,3 +1,4 @@
+// Listing 1.6: Concatenated string constants
 #include <iostream>
 int main()
 {

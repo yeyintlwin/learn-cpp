@@ -1,3 +1,4 @@
+// Listing 2.4: Passing variables by value
 #include <iostream>
 
 float base, height, area;

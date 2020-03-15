@@ -1,3 +1,5 @@
+// Listing 2.12: This program shows function
+// myDate() overloading
 #include <iostream>
 
 void myDate(char *str);

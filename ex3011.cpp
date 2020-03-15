@@ -1,9 +1,6 @@
-
-//Evaluating PI Series
-
-/*
-* pi / 4 = 1 - 1/3 + 1/5 + 1/7 + ... + 1/inf(odd)
-*/
+// Listing 3.11: This program evaluatesthe value 
+// of PI using the series
+// PI/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
 
 #include <iostream>
 

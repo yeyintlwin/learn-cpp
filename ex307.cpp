@@ -1,3 +1,6 @@
+// Listing 3.7: This program that gives the user the option of
+// converting Fahrenheit to Celsius or Celsius to Fahrenheit.
+
 //Temperature Conversion
 #include <iostream>
 

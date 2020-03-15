@@ -1,3 +1,4 @@
+// Listing 1.13: Using the comma operator
 #include <iostream>
 int main()
 {
@@ -11,9 +12,9 @@ int main()
 
     std::cout << "\nValue returned is " << num << std::endl;
 
-    std::cout << "a: " << a << std::endl;//256.78
-    std::cout << "b: " << b << std::endl;//-100
-    std::cout << "c: " << c << std::endl;//17
+    std::cout << "a: " << a << std::endl; //256.78
+    std::cout << "b: " << b << std::endl; //-100
+    std::cout << "c: " << c << std::endl; //17
 
     return 0;
 }

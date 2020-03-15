@@ -1,10 +1,13 @@
+// Listing 3.3: This program computes the sum of
+// odd numbers from Start through Last.
+
 //GOTO statement.
 #include <iostream>
 
 int main()
 {
   unsigned short int start, last, odds, sum = 0;
-  //What is unsingned and signed?
+  //What are unsingned and signed?
 
   std::cout << "Enter start and last\n";
   std::cin >> start >> last;

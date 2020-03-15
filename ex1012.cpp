@@ -1,3 +1,4 @@
+// Listing 1.12: Using the conditional operator
 #include <iostream>
 int main()
 {
@@ -10,5 +11,6 @@ int main()
     largst = largst > num3 ? largst : num3;
 
     std::cout << "\nLargest number is " << largst << std::endl;
+    
     return 0;
 }

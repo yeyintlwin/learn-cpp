@@ -1,3 +1,6 @@
+// Listing 2.13: This program demonstrates function 
+// overloading with defult arguements.
+
 #include <iostream>
 
 void repeart_ch(char = '=', int = 40);

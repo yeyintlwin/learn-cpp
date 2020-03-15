@@ -1,3 +1,4 @@
+// Listing 1.11: Using a compound operator
 #include <iostream>
 int main()
 {

@@ -1,3 +1,5 @@
+// Listing 2.2: This program demostrates a simple function
+// that print a line of 40 asterisks.
 #include <iostream>
 
 void starline();

@@ -1,3 +1,6 @@
+// Listing 2.14: This program calculates the factorial of
+// a positive integer using recursive method.
+
 #include <iostream>
 
 long double facto(int);

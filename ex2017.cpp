@@ -1,3 +1,4 @@
+// Listing 2.17: This program demonstrates returning a structure 
 #include <iostream>
 
 struct Length

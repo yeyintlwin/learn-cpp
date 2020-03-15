@@ -1,5 +1,8 @@
-#include <iostream>
+// Listing 3.13: This program computes the factorial of
+// a positive integer n. The factorial of n represented
+// by n! is defined as
 // n! =  n( n - 1 )  n( n - 2 )   n( n - 3 ) ... (3)(2)(1)
+#include <iostream>
 
 int main()
 {

@@ -1,3 +1,6 @@
+// Listing 2.7: This program reads a lowercase character,
+// converts it to uppercase and than writes out
+// the uppercase equivalent.
 #include <iostream>
 
 void lower_to_upper(char c1, char &c2)

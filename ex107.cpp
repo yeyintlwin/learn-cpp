@@ -1,3 +1,4 @@
+// Listing 1.7: Using an enumerated constant
 #include <iostream>
 int main()
 {

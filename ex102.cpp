@@ -1,3 +1,4 @@
+// Listing 1.2: Using a bool variable.
 #include <iostream>
 int main()
 {

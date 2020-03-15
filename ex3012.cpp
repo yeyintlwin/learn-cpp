@@ -1,5 +1,8 @@
+// Listing 3.12: This program counts characters 
+// and wordsthat you typed in
+
 #include <iostream>
-#include <conio.h> //It only working on Windows.
+#include <conio.h> // for getche() function, It is only working on Windows.
 
 int main()
 {

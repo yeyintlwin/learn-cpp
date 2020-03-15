@@ -1,3 +1,7 @@
+// Listing 3.6: This program reads a lowestcase character,
+// converts it to uppercase and than writes out
+// the uppercase equivalent.
+
 #include <iostream>
 
 int main()
