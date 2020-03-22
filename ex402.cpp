@@ -1,4 +1,4 @@
-// Listing 4.2: Lising a pointer, this program 
+// Listing 4.2: Using a pointer, this program 
 // counts form 10 to 1 displaying the numbers
 // followed by BOOM!.
 

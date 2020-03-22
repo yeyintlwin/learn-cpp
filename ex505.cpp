@@ -1,3 +1,4 @@
+// Listing 5.5: Returning references
 #include <iostream>
 
 struct sides

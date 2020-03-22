@@ -1,4 +1,4 @@
-// Listing 2.9: Usinf functions with defualt arguements
+// Listing 2.9: Using functions with defualt arguements
 #include <iostream>
 
 void volume(float = 2, float = 3, float = 4);
