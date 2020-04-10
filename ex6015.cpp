@@ -13,7 +13,7 @@ public:
     year = y;
   }
 
-  operator long(); // membea conversion function
+  operator long(); // member conversion function
 };
 
 // The member conversion functon.

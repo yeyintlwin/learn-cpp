@@ -1,0 +1,5 @@
+The left shift and right shift operators should not be used for negative numbers. The result of undefined behaviour if any operstors is a negative number.  For examples results of both -1 << 1 and 1 << -1 is undefined.
+
+If the number is shifted more than the size of integer, the behaviour is undefined. Fi=or example, 1 << 33 is undefined if integers are stored using 32 bits. See this for more details.
+
+
