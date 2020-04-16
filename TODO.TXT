@@ -1,3 +1,0 @@
-How to use String and ArrayList in cpp.
-What are unsigned and signed?
-How to include cino.h?
