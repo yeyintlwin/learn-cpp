@@ -18,7 +18,7 @@ if ! is_file_exist $file ; then
     touch $file
     echo "- $1 file is created."
 else
-    echo "- \"$1\" file has already created."
+    echo "- \"$1\" file was already created."
 fi
 if is_empty $file ; then
     echo "#include <iostream>" >> $file
@@ -26,7 +26,7 @@ if is_empty $file ; then
     echo "int main(){" >> $file
     echo "  return 0;" >> $file
     echo "}" >> $file
-    echo "- Declelaed intepretor to bash."
+    echo "- template created."
 fi
 
 code $file
