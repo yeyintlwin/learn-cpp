@@ -1,4 +1,4 @@
-// Listing 3.22: This program uses aswitch statement to
+// Listing 3.22: This program uses a switch statement to
 // control a user's selection.
 
 #include <iostream>

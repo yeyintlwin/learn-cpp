@@ -1,4 +1,4 @@
-// Listing 3.11: This program evaluatesthe value 
+// Listing 3.11: This program evaluates the value 
 // of PI using the series
 // PI/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 - ...
 

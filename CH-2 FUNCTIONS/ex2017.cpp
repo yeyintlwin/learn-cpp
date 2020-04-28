@@ -47,8 +47,8 @@ void convr(Length x)
 
 Length add(Length x, Length y)
 {
-  //Example code was producing wrong output.
-  //Rewrited by Ye Yint Lwin.
+  // Example code was missing output.
+  // Rewrited by Ye Yint Lwin.
 
   Length z;
   z.feet = x.feet + y.feet;

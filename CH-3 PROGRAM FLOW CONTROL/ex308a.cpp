@@ -1,5 +1,5 @@
 // Nested if Statement
-// Removed the braces, It was more compact in C++.
+// Removed the braces, It was more compact the code in C++.
 #include <iostream>
 
 int main()

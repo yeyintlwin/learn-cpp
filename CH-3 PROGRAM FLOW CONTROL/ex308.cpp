@@ -1,6 +1,6 @@
 // Listing 3.8: This program demonstrates a complex,
 // nested if statement.
-//Nested if Statement
+
 #include <iostream>
 
 int main()
