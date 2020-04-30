@@ -48,6 +48,7 @@
         "ctime": "cpp",
         "iomanip": "cpp",
         "bitset": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "list": "cpp"
     }
 }
