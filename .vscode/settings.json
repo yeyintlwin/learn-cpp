@@ -49,6 +49,7 @@
         "iomanip": "cpp",
         "bitset": "cpp",
         "cinttypes": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "set": "cpp"
     }
 }
